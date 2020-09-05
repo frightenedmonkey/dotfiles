@@ -1,0 +1,23 @@
+[grep]
+  lineNumber = true
+[alias]
+  g = grep --break --heading --line-number
+[user]
+  name = Michael Lewis
+[core]
+  excludesfile = ~/.gitignore_global
+[filter "lfs"]
+  clean = git-lfs clean %f
+  smudge = git-lfs smudge %f
+  required = true
+[diff]
+  compactionHeuristic = true
+  renameLimit = 3401
+[url "git@github.com:"]
+  insteadOf = https://github.com/
+[fetch]
+  prune = true
+[commit]
+	gpgsign = true
+[pull]
+	rebase = true

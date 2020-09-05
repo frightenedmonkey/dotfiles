@@ -1,0 +1,19 @@
+add_newline = false
+
+[directory]
+prefix = "in "
+truncate_to_repo = true
+disabled = false
+
+[character]
+symbol = "➜"
+
+[package]
+disabled = true
+
+[kubernetes]
+disabled = false
+
+[time]
+disabled = false
+format = "🕙 [ %T ]"
