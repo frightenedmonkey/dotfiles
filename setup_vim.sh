@@ -33,8 +33,6 @@ plugins=(
 mkdir -p ~/.vim/bundle
 pushd ~/.vim/bundle
 
-dir_regex='[^/]+(?=\.git$)'
-
 for repo in "${plugins[@]}"
 do
   # Note that this looks really terrible to me, but grabbing a capture group
