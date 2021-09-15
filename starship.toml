@@ -1,12 +1,10 @@
 add_newline = false
 
 [directory]
-prefix = "in "
+format = "in $path "
 truncate_to_repo = true
+style = "bold cyan"
 disabled = false
-
-[character]
-symbol = "➜"
 
 [package]
 disabled = true
@@ -16,4 +14,4 @@ disabled = false
 
 [time]
 disabled = false
-format = "🕙 [ %T ]"
+time_format = "🕙 [ %T ]"
